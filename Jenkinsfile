@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello'
+                echo 'Hello#3'
             }
         }
         stage('Build buildjob') {
@@ -24,7 +24,7 @@ pipeline {
         }       
         stage('Bye') {
             steps {
-                echo 'Bye'
+                echo 'Bye#3'
             }
         }
     }
