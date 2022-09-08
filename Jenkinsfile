@@ -7,6 +7,11 @@ pipeline {
                 echo 'Hello'
             }
         }
+        stage('Build buildjob') {
+            steps {
+                build 'buildjob'
+            }
+        }
         stage('Build devjob') {
             steps {
                 build 'devjob'
